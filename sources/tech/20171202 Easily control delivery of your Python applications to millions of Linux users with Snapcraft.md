@@ -2,9 +2,12 @@ Translating by DavidChenLiang
 Python
 ============================================================
 
+Python有着丰富的打包工具集，发布和沙盒应用。Snapcraft 是在这些被广大开发者熟悉的工具集上构建的,这些工具集有`pip`,`setup.py`和`requirements.txt`等等，他们用来创建snaps 用于在 Linux 上安装。
+
 Python has rich tools for packaging, distributing and sandboxing applications. Snapcraft builds on top of these familiar tools such as `pip`, `setup.py` and `requirements.txt` to create snaps for people to install on Linux.
 
 ### What problems do snaps solve for Python applications?
+###snaps到底能给Python应用程序解决什么问题？
 
 Linux install instructions for Python applications often get complicated. System dependencies, which differ from distribution to distribution, must be separately installed. To prevent modules from different Python applications clashing with each other, developer tools like `virtualenv` or `venv` must be used. With snapcraft it’s one command to produce a bundle that works anywhere.
 
